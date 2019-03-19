@@ -1,0 +1,19 @@
+{
+  "name": "pdf-report-server",
+  "version": "1.0.0",
+  "description": "PDF server to send PDF to client so that client can download it.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Shashank S Shetty",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
